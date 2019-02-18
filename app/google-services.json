@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294569971874",
+    "firebase_url": "https://gotham-casino.firebaseio.com",
+    "project_id": "gotham-casino",
+    "storage_bucket": "gotham-casino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294569971874:android:fe2a41d14c659ad8",
+        "android_client_info": {
+          "package_name": "fr.isen.firstpackage.gothamcasino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294569971874-uskk96cc0npe3csmhnk5on0lc1rggopd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.isen.firstpackage.gothamcasino",
+            "certificate_hash": "90a98e867430299b9f316238b61dadc8e746972d"
+          }
+        },
+        {
+          "client_id": "294569971874-318n607i095p0voq0ruqk07qn72evrk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkWi1xBp3LWudnkt97ICtyBZkPQxscqcg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294569971874-318n607i095p0voq0ruqk07qn72evrk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

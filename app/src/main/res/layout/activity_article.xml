@@ -83,4 +83,12 @@
             app:layout_constraintTop_toBottomOf="@+id/buttonDislike" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/comments"/>
+    <TextView
+            android:text="@string/titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/articleTitle"
+            app:layout_constraintTop_toBottomOf="@+id/avatar" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/articleImage" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
 </android.support.constraint.ConstraintLayout>

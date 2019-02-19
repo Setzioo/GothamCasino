@@ -11,4 +11,5 @@
     <string name="nombre_dislike">nombre Dislike</string>
     <string name="contenu_string_image_accompagnant_l_article">Contenu @string/image_accompagnant_l_article</string>
     <string name="description_de_l_article">Description de l\'article</string>
+    <string name="titre">Titre</string>
 </resources>

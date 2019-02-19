@@ -1,16 +1,15 @@
 package fr.isen.firstpackage.gothamcasino
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import com.firebase.ui.auth.AuthUI
-import kotlinx.android.synthetic.main.activity_login.*
-import java.util.*
-import android.content.Intent
 import android.app.Activity
+import android.content.Intent
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.ErrorCodes
 import com.firebase.ui.auth.IdpResponse
 import kotlinx.android.synthetic.main.activity_login.*
+import java.util.*
 
 
 class LoginActivity : AppCompatActivity() {

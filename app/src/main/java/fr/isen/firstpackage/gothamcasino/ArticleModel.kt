@@ -1,7 +1,6 @@
 package fr.isen.firstpackage.gothamcasino
 
 data class ArticleModel(
-    val id: Long,
     val userId: String,
     val title: String,
     val description: String,

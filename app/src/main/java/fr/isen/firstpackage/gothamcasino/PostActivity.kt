@@ -16,6 +16,7 @@ class PostActivity : AppCompatActivity() {
 
     }
 
+
     private fun onPublish() {
         var commentText: String = inputComment.text.toString()
         var titleText: String = inputText.text.toString()

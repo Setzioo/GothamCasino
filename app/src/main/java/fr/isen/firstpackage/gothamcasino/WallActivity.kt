@@ -45,7 +45,7 @@ class WallActivity : AppCompatActivity() {
                     for (document in task.result!!) {
                         Log.d("TAG", document.id + " => " + document.data)
 
-                        tempArticleModel = ArticleModel(document.data["id"] as Long,document.data["userId"] as String,document.data["title"] as String,document.data["description"] as String,document.data["photoUrl"] as String,document.data["nbLike"] as Long,document.data["nbDislike"] as Long)
+                        tempArticleModel = ArticleModel(document.data["userId"] as String,document.data["title"] as String,document.data["description"] as String,document.data["photoUrl"] as String,document.data["nbLike"] as Long,document.data["nbDislike"] as Long)
                         articles.add(tempArticleModel)
                         Log.d("TAG", articles.toString())
                         (articleView.adapter as CustomAdapter).notifyDataSetChanged()

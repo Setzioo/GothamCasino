@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Gotham Casino</string>
     <string name="lgefsryrth">lgefsryrth</string>
+    <string name="title">Title</string>
+    <string name="likes">Likes</string>
+    <string name="dislikes">Dislikes</string>
+    <string name="articlepicture">ArticlePicture</string>
 </resources>

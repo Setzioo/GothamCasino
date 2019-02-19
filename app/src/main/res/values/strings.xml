@@ -7,4 +7,7 @@
     <string name="likes">Likes</string>
     <string name="dislikes">Dislikes</string>
     <string name="articlepicture">ArticlePicture</string>
+    <string name="commentaire">commentaire...</string>
+    <string name="retour">Retour</string>
+    <string name="titre">Titre...</string>
 </resources>

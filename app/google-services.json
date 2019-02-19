@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "294569971874-av05u5mq6uo23765jm3aokgket5888s6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.isen.firstpackage.gothamcasino",
+            "certificate_hash": "efad44f2ed220119bb83e85c401a102eac0ae766"
+          }
+        },
+        {
           "client_id": "294569971874-318n607i095p0voq0ruqk07qn72evrk7.apps.googleusercontent.com",
           "client_type": 3
         }

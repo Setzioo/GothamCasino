@@ -10,4 +10,15 @@
     <string name="commentaire">commentaire...</string>
     <string name="retour">Retour</string>
     <string name="titre">Titre...</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="avatar">avatar</string>
+    <string name="image_accompagnant_l_article">image accompagnant l\'article</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="nombre_like">nombre Like</string>
+    <string name="nombre_dislike">nombre Dislike</string>
+    <string name="contenu_string_image_accompagnant_l_article">Contenu @string/image_accompagnant_l_article</string>
+    <string name="description_de_l_article">Description de l\'article</string>
+    <string name="titre">Titre</string>
 </resources>

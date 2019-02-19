@@ -3,4 +3,8 @@
     <string name="lgefsryrth">lgefsryrth</string>
     <string name="nouveau_post">Nouveau post</string>
     <string name="publier">Publier</string>
+    <string name="title">Title</string>
+    <string name="likes">Likes</string>
+    <string name="dislikes">Dislikes</string>
+    <string name="articlepicture">ArticlePicture</string>
 </resources>

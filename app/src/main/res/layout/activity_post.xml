@@ -12,26 +12,33 @@
             android:layout_width="362dp"
             android:layout_height="42dp"
             android:id="@+id/textView" android:textSize="24sp"
-            android:textStyle="bold" android:textAlignment="viewStart" android:layout_marginTop="60dp"
+            android:textStyle="bold" android:textAlignment="viewStart" android:layout_marginTop="28dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.489" app:layout_constraintEnd_toEndOf="parent"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent" android:layout_marginStart="24dp"/>
     <EditText
             android:layout_width="311dp"
-            android:layout_height="88dp"
+            android:layout_height="138dp"
             android:inputType="textMultiLine"
             android:ems="10"
-            android:id="@+id/editText2"
-            app:layout_constraintStart_toStartOf="@+id/textView" app:layout_constraintEnd_toEndOf="@+id/textView"
-            app:layout_constraintHorizontal_bias="0.196" android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView" android:text="commentaire..."
+            android:id="@+id/inputComment"
             android:textAlignment="textStart" android:textColor="@color/comment" android:textStyle="italic"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="@+id/inputText" app:layout_constraintEnd_toEndOf="@+id/inputText"
+            app:layout_constraintTop_toBottomOf="@+id/inputText"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="36dp" android:hint="commentaire..."/>
     <Button
             android:text="@string/publier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/authButton" android:layout_marginTop="72dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="84dp"/>
+            android:id="@+id/publiButton" android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/inputComment" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="88dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/inputText" android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="@+id/textView" android:layout_marginTop="84dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:hint="Titre..."/>
 </android.support.constraint.ConstraintLayout>

@@ -10,8 +10,8 @@ class CustomAdapter(private val articles: ArrayList<ArticleModel>): RecyclerView
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.title.text = articles[position].title
-        holder.likes.text = articles[position].nbLike.toString()
-        holder.dislikes.text = articles[position].nbDislike.toString()
+        holder.likes.text = "Likes : " + articles[position].nbLike.toString()
+        holder.dislikes.text = "Dislikes : " + articles[position].nbDislike.toString()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

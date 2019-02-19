@@ -23,6 +23,11 @@ class WallActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        articleButton.setOnClickListener {
+            val intent = Intent(this, ArticleActivity::class.java)
+            startActivity(intent)
+        }
+
         val articles = ArrayList<ArticleModel>()
 
 
@@ -36,7 +41,6 @@ class WallActivity : AppCompatActivity() {
 
         val db = FirebaseFirestore.getInstance()
 
-        var tempArticleModel:ArticleModel
 
         db.collection("ArticleBase")
             .get()
